@@ -1,0 +1,18 @@
+.bg-mountains-top {
+  position: relative;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg-mountains-top svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 275px;
+}
+
+.bg-mountains-top .shape-fill {
+  fill: #FFFFFF;
+}

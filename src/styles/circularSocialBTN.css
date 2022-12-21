@@ -1,0 +1,14 @@
+.circular_social_btn{
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: ease-in 100.0ms;
+}
+.circular_social_btn:hover{
+  scale: 1.2;
+}

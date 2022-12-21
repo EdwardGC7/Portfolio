@@ -1,0 +1,54 @@
+.navBarContainer {
+  background-color: white;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px 100px;
+  z-index: 1000;
+}
+
+.navBarUl{
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link{
+  margin-left: 25px;
+  font-size: 20px;
+  color: #515A5A;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: black;
+}
+
+.social_icons{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+
+button {
+  border-radius: 3px;
+  border: 2px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  width: 185px;
+  height: 60px;
+  transition: border-color 0.25s;
+  background-color: white;
+}
+button:hover {
+  border: 1px solid #6C4D7B;
+  color: #515A5A;
+}

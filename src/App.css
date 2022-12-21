@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+.bg_colored{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+
+}
+.bg_colored2{
+  height: 80vh;
+  width: 100%;
+  background-color: #6C4D7B;
+  line-height: 0;
+}
