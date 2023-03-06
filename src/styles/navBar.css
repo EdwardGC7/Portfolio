@@ -5,6 +5,7 @@
   align-items: center;
   position: fixed;
   width: 100%;
+  max-width: 1800px;
   padding: 10px 100px;
   z-index: 1000;
 }
@@ -23,6 +24,7 @@ ul {
   font-size: 20px;
   color: #515A5A;
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-link:hover{
   color: black;
@@ -38,7 +40,7 @@ ul {
 button {
   border-radius: 3px;
   border: 2px solid black;
-  padding: 0.6em 1.2em;
+  /* padding: 0.6em 1.2em; */
   font-size: 1.3em;
   font-weight: 500;
   font-family: inherit;
