@@ -16,8 +16,8 @@ const NavBar = () => {
         <nav> 
           <ul className='navBarUl'>
             <li><Link to='home' className={'nav-link'} smooth offset={-70} duration={400}>Home</Link></li>
-            <li><Link to='skills' className={'nav-link'} smooth offset={-70} duration={400}>Skill</Link></li>
-            <li><NavLink to='/projects' className={'nav-link'}>Projects</NavLink></li>
+            <li><Link to='skills' className={'nav-link'} smooth offset={-80} duration={400}>Skill</Link></li>
+            <li><Link to='projects' className={'nav-link'}  smooth offset={-80} duration={400}>Projects</Link></li>
             <li>
               <div className='social_icons'>
                 <CircularSocialBTN Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
@@ -27,7 +27,7 @@ const NavBar = () => {
             </li>
             <li>
               <button>
-                Let's Connect
+              <Link to='contactMe' smooth offset={-70} duration={400}>Contact Me</Link>
               </button>
             </li>
           </ul>

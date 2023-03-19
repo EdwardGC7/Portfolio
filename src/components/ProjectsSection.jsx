@@ -53,8 +53,8 @@ const ProjectsSection = () => {
 
   return (
     <div className='projects_section'>
-        <h2 className='projects_section_header'>Projects</h2>
-        <p style={{fontSize:'18px', width:'700px', margin:'30px auto'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem neque modi iste reiciendis? Incidunt quam, repellat repudiandae optio, voluptatibus ducimus fuga ipsa quasi expedita reprehenderit distinctio, adipisci provident ea accusamus.</p>
+        <h2 id='projects' className='projects_section_header'>Projects</h2>
+        <p style={{fontSize:'18px', width:'700px', margin:'30px auto'}}>Take a look at some of my recent projects. These examples demonstrate my ability to create dynamic and interactive user interfaces, as well as my skill in using React and other technologies to manage complex structures. With custom animations, responsive design, and seamless functionality, these projects highlight my growing proficiency in web development with these essential tools.</p>
         <div className='projects_nav'>
           <div className={`projects_nav_button ${filter == 'all'? 'projects_nav_button--active': ''}`} onClick={()=>{setFilter('all')}}><p>ALL</p></div>
           <div className={`projects_nav_button ${filter == 'react'? 'projects_nav_button--active': ''}`} onClick={()=>{setFilter('react')}}><p>REACT</p></div>
