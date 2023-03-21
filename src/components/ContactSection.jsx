@@ -5,9 +5,9 @@ import ContactForm from './ContactForm'
 
 const ContactSection = () => {
   return (
-    <div className='contact_container'>
+    <div id='contactMe' className='contact_container'>
       <div><img className='contact_img' src={MailSvg} alt="mail-img" /></div>
-      <div id='contactMe' className='contact_form'>
+      <div  className='contact_form'>
         <ContactForm/>
       </div>
     </div>

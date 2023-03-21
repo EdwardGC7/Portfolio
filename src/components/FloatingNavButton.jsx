@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../App.css'
 import NavBar from "./NavBar";
 import { FaBars, FaEyeSlash} from "react-icons/fa";
@@ -10,9 +10,16 @@ const FloatingNavButton = () => {
     setNavOpen(!navOpen);
   };
 
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setNavOpen(false);
+    }
+  }, [])
+  
+
   return (
     <div className="floating_nav_button">
-      {navOpen && <NavBar />}
+      {navOpen && <NavBar setNavOpen={setNavOpen} />}
       <button className="FloatingButton" onClick={handleButtonClick}>
         {navOpen ? <FaEyeSlash size={30} color={'grey'}/> : <FaBars size={30} color={'grey'}/>}
       </button>

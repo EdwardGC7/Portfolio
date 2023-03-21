@@ -7,8 +7,6 @@
   min-width: 600px;
   max-width: 1400px;
   margin-top: 100px;
-  /* border: 1px solid rgba(213, 219, 219, 0.8); */
-  /* background-color: rgba(213, 219, 219, 0.1); */
   border-radius: 200px;
   font-size: 50px;
   color: white;
@@ -73,4 +71,24 @@
 	75% {
 		transform: translateX(-6px) rotate(-1.2deg);
 	}
+}
+
+
+/* Extra Code Down Here */
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+  .skill-section-container{
+    width: 100%;
+  }
+  .skill-section-container p{
+    width: 70%;
+  }
+}
+
+/* For tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .skill-section-container{
+    width: 100%;
+  }
 }

@@ -1,23 +1,34 @@
-import {React, useState, useEffect} from 'react';
+import {React, useState} from 'react';
 import '../styles/navBar.css';
-import {NavLink} from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import CircularSocialBTN from './CircularSocialBTN';
 import { Link } from 'react-scroll';
 
-const NavBar = () => {
+const NavBar = ({setNavOpen}) => {
+
+  // const [toggleClass, setToggleClass] = useState(false)
+
+  const handleButtonClick = () => {
+    // setToggleClass(!toggleClass);
+    if (window.innerWidth < 768) {
+      setNavOpen(false);
+    }
+    // setNavOpen(false);
+    
+  };
 
   return (
-    <div className='navBarContainer'>
+    <div className={`navBarContainer`} onClick={handleButtonClick}>
+    {/* <div className={`navBarContainer ${toggleClass? 'hideBar':''}`} onClick={handleButtonClick}> */}
       <div>
         <h1>LOGO</h1>
       </div>
       <div>
         <nav> 
           <ul className='navBarUl'>
-            <li><Link to='home' className={'nav-link'} smooth offset={-70} duration={400}>Home</Link></li>
-            <li><Link to='skills' className={'nav-link'} smooth offset={-80} duration={400}>Skill</Link></li>
-            <li><Link to='projects' className={'nav-link'}  smooth offset={-80} duration={400}>Projects</Link></li>
+            <li><Link onClick={handleButtonClick} to='home' className={'nav-link'} smooth offset={-70} duration={400}>Home</Link></li>
+            <li><Link onClick={handleButtonClick} to='skills' className={'nav-link'} smooth offset={-80} duration={400}>Skill</Link></li>
+            <li><Link onClick={handleButtonClick} to='projects' className={'nav-link'}  smooth offset={-80} duration={400}>Projects</Link></li>
             <li>
               <div className='social_icons'>
                 <CircularSocialBTN Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
@@ -25,10 +36,8 @@ const NavBar = () => {
                 <CircularSocialBTN Iconfa={<FaInstagram size={30} color={'grey'}/>}/>
               </div>
             </li>
-            <li>
-              <button>
-              <Link to='contactMe' smooth offset={-70} duration={400}>Contact Me</Link>
-              </button>
+            <li >
+              <Link  to='contactMe' smooth offset={-70} duration={400}><button onClick={handleButtonClick}>Contact Me</button></Link>
             </li>
           </ul>
         </nav>

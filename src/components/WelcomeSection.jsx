@@ -5,7 +5,8 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 
 const WelcomeSection = () => {
   return (
-    <div className='welcome-container' id='home'>
+    <div className='welcome-container' >
+      <h1 className='mobile_logo'>LOGO</h1>
       <div className='welcome-section-a'>
         <div className='welcome-message'>
           Welcome to my Portfolio

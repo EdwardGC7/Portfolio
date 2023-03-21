@@ -40,7 +40,6 @@ ul {
 button {
   border-radius: 3px;
   border: 2px solid black;
-  /* padding: 0.6em 1.2em; */
   font-size: 1.3em;
   font-weight: 500;
   font-family: inherit;
@@ -53,4 +52,40 @@ button {
 button:hover {
   border: 1px solid #6C4D7B;
   color: #515A5A;
+}
+
+
+/* Extra Code Down Here */
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+  .navBarContainer{
+    flex-direction: column;
+    margin-top: 0px;
+    padding-top: 40px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.98);
+  }
+  .navBarUl{
+    flex-direction: column;
+  }
+  .navBarContainer li{
+    margin: 15px auto;
+  }
+  .navBarContainer li .nav-link{
+    margin: auto;
+  }
+  /* .hideBar{
+    display: none;
+  } */
+}
+
+/* For tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .social_icons{
+    display: none;
+  }
+  button{
+    margin-left: 25px;
+  }
 }
