@@ -22,7 +22,7 @@ const ProjectsSection = () => {
     },
     {
       title:'Project 3',
-      description:'A small description here',
+      description:'A small description hereA small description hereA small description hereA small description hereA small description hereA small description here',
       imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
       type:'react'
     },
@@ -52,11 +52,17 @@ const ProjectsSection = () => {
 
   const [selectedItem, setSelectedItem] = useState('ALL');
   const [isOpen, setIsOpen] = useState(false);
-
+  
   const handleItemClick = (item) => {
     setSelectedItem(item);
     setIsOpen(false);
   };
+  
+  // const [fewItems, setFewItems] = useState(false);
+
+  // if (window.innerWidth > 1024 && projectsList.length<=2) {
+    
+  // }
   
 
   return (
@@ -82,7 +88,7 @@ const ProjectsSection = () => {
           <div className={`projects_nav_button ${filter == 'react'? 'projects_nav_button--active': ''}`} onClick={()=>{setFilter('react')}}><p>REACT</p></div>
           <div className={`projects_nav_button ${filter == 'js'? 'projects_nav_button--active': ''}`} onClick={()=>{setFilter('js')}}><p>JS/CSS/HTML</p></div>
         </div>
-        <div className='projects_section_container'>
+        <div className={(window.innerWidth > 1024 && projects.length<=2)?'projects_section_container2':'projects_section_container'}>
           {
             projects.map((project)=>{
 

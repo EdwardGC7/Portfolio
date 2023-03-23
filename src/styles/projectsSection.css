@@ -58,6 +58,14 @@
   min-height: 75%;
   padding: 40px 80px;
 }
+.projects_section_container2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 100%;
+  min-height: 75%;
+  padding: 40px 80px;
+}
 
 .dropdown{
   display: none;

@@ -30,10 +30,12 @@ const NavBar = ({setNavOpen}) => {
             <li><Link onClick={handleButtonClick} to='skills' className={'nav-link'} smooth offset={-80} duration={400}>Skill</Link></li>
             <li><Link onClick={handleButtonClick} to='projects' className={'nav-link'}  smooth offset={-80} duration={400}>Projects</Link></li>
             <li>
+              <div className='social_icons_top'>
               <div className='social_icons'>
                 <CircularSocialBTN Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
                 <CircularSocialBTN Iconfa={<FaFacebookF size={30} color={'grey'}/>}/>
                 <CircularSocialBTN Iconfa={<FaInstagram size={30} color={'grey'}/>}/>
+              </div>
               </div>
             </li>
             <li >

@@ -118,4 +118,12 @@ button[type="submit"]:hover {
     width: 200px;
     height: 200px;
   }
+  .contact_form{
+    width: 530px;
+    height: 500px;
+  }
+  input,
+  textarea {
+    width: 90%;
+  }
 }

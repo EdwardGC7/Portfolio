@@ -14,7 +14,7 @@ const WelcomeSection = () => {
         <h1 className='presentation'>Hi! I'm Osvaldo,<span> Web Developer</span></h1>
 
         <div className='about-me'>
-        <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sapiente      eligendi tempora nesciunt facere, iusto distinctio nemo placeat accusamus soluta, omnis architecto deleniti nisi! Esse ullam aliquam distinctio aspernatur excepturi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda doloremque maiores laudantium. Debitis deleniti sed eius culpa? Sint, dignissimos?
+        <p >I am a passionate and dedicated web developer focused on creating beautiful and functional software. With a strong foundation in HTML, CSS, and JavaScript, as well as a deep understanding of React JS, I am equipped with a wide range of skills to meet the needs of clients. Additionally, I possess knowledge in key areas such as Git, APIs, and databases, and have completed courses in programming best practices, algorithms, and OOP. With a commitment to ongoing learning and growth, my goal is to be a valuable asset to any team.
         </p>
         </div>
         <div className='download-cv'>Download my CV <span><FaArrowAltCircleDown size={20} color={'grey'}/></span></div>

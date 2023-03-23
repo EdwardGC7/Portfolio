@@ -110,6 +110,11 @@
     align-items: center;
   }
 
+  .welcome-container img{
+    width: 370px;
+    height: 270px;
+  }
+
   .welcome-section-a {
     margin-right: 0;
     margin-bottom: 0px;

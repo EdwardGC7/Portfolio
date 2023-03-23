@@ -8,7 +8,7 @@ const SkillSection = () => {
   return (
     <div className='skill-section-container'>
       <h2 id='skills'>Skills</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum ipsam obcaecati aspernatur cupiditate ullam incidunt et ducimus adipisci eius?</p>
+      <p>With a focus on delivering exceptional results, I have a deep understanding of web development tools and technologies.</p>
       <div className='skill-list'>
         <SkillsIcon title='Html' icon={<FaHtml5 size={50} color={'#e04e27'}/>} />  
         <SkillsIcon title='Css' icon={<FaCss3 size={50} color={'#016fba'}/>} />

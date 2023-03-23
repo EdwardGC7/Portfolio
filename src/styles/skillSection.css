@@ -80,6 +80,7 @@
 @media screen and (max-width: 767px) {
   .skill-section-container{
     width: 100%;
+    min-width: 200px;
   }
   .skill-section-container p{
     width: 70%;
