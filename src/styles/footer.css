@@ -13,8 +13,14 @@
   color: rgba(255, 255, 255, 0.4);
   margin-top: 10px;
 }
-.footer_container h1{
+.footer-logo{
   margin-bottom: 10px;
+  width: 100px;
+  height: 100px; 
+}
+.footer-logo img{
+  width: 100%;
+  border-bottom: 2px solid white;
 }
 
 
@@ -27,7 +33,7 @@
     align-items: center;
     padding: 20px 20px;
   }
-  .footer_container h1{
+  .footer-logo{
     display: none;
   }
 }

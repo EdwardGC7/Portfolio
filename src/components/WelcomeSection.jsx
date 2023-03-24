@@ -2,11 +2,12 @@ import React from 'react'
 import CodingSvg from '../assets/coding.svg'
 import '../styles/welcomeSection.css'
 import { FaArrowAltCircleDown } from "react-icons/fa";
+import Logo from './Logo';
 
 const WelcomeSection = () => {
   return (
     <div className='welcome-container' >
-      <h1 className='mobile_logo'>LOGO</h1>
+      <div className='mobile_logo'><Logo /></div>
       <div className='welcome-section-a'>
         <div className='welcome-message'>
           Welcome to my Portfolio
@@ -20,7 +21,7 @@ const WelcomeSection = () => {
         <div className='download-cv'>Download my CV <span><FaArrowAltCircleDown size={20} color={'grey'}/></span></div>
       </div>
       <div>
-        <img src={CodingSvg} alt="Coding image" />
+        <img className='welcome-container_img' src={CodingSvg} alt="Coding image" />
       </div>
     </div>
   )

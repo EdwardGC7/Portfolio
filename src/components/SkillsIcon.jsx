@@ -8,6 +8,6 @@ const SkillsIcon = ({title, icon}) => {
       <div  className='skills-icon'>{icon}</div>
     </div>
   )
-}
+} 
 
 export default SkillsIcon

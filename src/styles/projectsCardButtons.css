@@ -1,8 +1,35 @@
 .card-buttons-container{
   display: flex;
-  width: 100px;
-  height: 20px;
+  width: 260px;
+  height: 30px;
   font-size: 18px;
+  /* border: 1px solid white; */
+}
+.card-buttons-container_button1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 125px;
+  margin-right: 2px;
   border: 1px solid white;
-  border-radius: 20px;
-} 
+  border-radius: 20px 0px 0px 20px;
+  cursor: pointer;
+  transition: ease-in 100.0ms;
+}
+.card-buttons-container_button1:hover{
+  scale: 1.1;
+}
+.card-buttons-container_button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  margin-left: 2px;
+  border: 1px solid white;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  transition: ease-in 100.0ms;
+}
+.card-buttons-container_button2:hover{
+  scale: 1.1;
+}

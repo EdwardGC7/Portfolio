@@ -12,31 +12,41 @@ const ProjectsSection = () => {
       title:'Project 1',
       description:'A small description here',
       imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react'
+      type:'react',
+      demo:'https://www.youtube.com/',
+      repository:'https://github.com/'
     },
     {
       title:'Project 2',
       description:'A small description here',
       imgUrl:'https://www.creative.onl/wp-content/uploads/2021/08/web-design-packages-scaled-1200x800.jpg',
-      type:'js'
+      type:'js',
+      demo:'https://www.youtube.com/',
+      repository:'https://github.com/'
     },
     {
       title:'Project 3',
       description:'A small description hereA small description hereA small description hereA small description hereA small description hereA small description here',
       imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react'
+      type:'react',
+      demo:'https://www.youtube.com/',
+      repository:'https://github.com/'
     },
     {
       title:'Project 4',
       description:'A small description here',
       imgUrl:'https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg',
-      type:'js'
+      type:'js',
+      demo:'https://www.youtube.com/',
+      repository:'https://github.com/'
     },
     {
       title:'Project 5',
       description:'A small description here',
       imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react'
+      type:'react',
+      demo:'https://www.youtube.com/',
+      repository:'https://github.com/'
     },
   ];
 
@@ -57,12 +67,6 @@ const ProjectsSection = () => {
     setSelectedItem(item);
     setIsOpen(false);
   };
-  
-  // const [fewItems, setFewItems] = useState(false);
-
-  // if (window.innerWidth > 1024 && projectsList.length<=2) {
-    
-  // }
   
 
   return (
@@ -92,7 +96,7 @@ const ProjectsSection = () => {
           {
             projects.map((project)=>{
 
-              return <ProjectsCard key={project.title} title={project.title} description={project.description} imgUrl={project.imgUrl}/>;
+              return <ProjectsCard key={project.title} title={project.title} description={project.description} imgUrl={project.imgUrl} demo={project.demo} repository={project.repository}/>;
             })
           }
         </div>

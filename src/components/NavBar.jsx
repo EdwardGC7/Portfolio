@@ -3,6 +3,7 @@ import '../styles/navBar.css';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import CircularSocialBTN from './CircularSocialBTN';
 import { Link } from 'react-scroll';
+import Logo from './Logo';
 
 const NavBar = ({setNavOpen}) => {
 
@@ -21,7 +22,7 @@ const NavBar = ({setNavOpen}) => {
     <div className={`navBarContainer`} onClick={handleButtonClick}>
     {/* <div className={`navBarContainer ${toggleClass? 'hideBar':''}`} onClick={handleButtonClick}> */}
       <div>
-        <h1>LOGO</h1>
+        <Logo/>
       </div>
       <div>
         <nav> 

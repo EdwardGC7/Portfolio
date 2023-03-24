@@ -8,7 +8,7 @@ const ProjectsCard = (props) => {
       <div className='card_img_container'>
         <img className='card_img' src={props.imgUrl} alt="Project img" />
         <div className='card_fade'><h2 style={{fontSize:'28px'}}>{props.title}</h2><p>{props.description}</p>
-        <ProjectsCardButtons/>
+        <ProjectsCardButtons demo={props.demo} repository={props.repository} />
         </div>
       </div>
       
