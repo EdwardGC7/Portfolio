@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/skillSection.css'
-import { FaHtml5, FaCss3, FaJs, FaReact, FaAtom, FaBootstrap, FaGithub, FaDatabase } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaJs, FaReact, FaBootstrap, FaGithub, FaDatabase } from "react-icons/fa"
 import SkillsIcon from './SkillsIcon.jsx'
 import redux from '../assets/redux.svg'
 
