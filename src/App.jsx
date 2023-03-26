@@ -18,7 +18,7 @@ function App() {
       <div id='home' className='bg_colored'><WelcomeSection/></div>
       <div className='bg_colored2'>
         <BgMountainsTop/>
-        <SkillSection/>
+        {/* <SkillSection/> */}
       </div>
       <div className='bg_colored3'>
         <TiltLine/>
