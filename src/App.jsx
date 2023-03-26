@@ -10,7 +10,7 @@ import ProjectsSection from './components/ProjectsSection'
 import SkillSection from './components/skillSection'
 import WelcomeSection from './components/WelcomeSection'
 
-function App() {
+function App() { 
 
   return (
     <div className="App">
