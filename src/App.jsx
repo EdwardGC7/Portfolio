@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <FloatingNavButton className="test"/>
+      <FloatingNavButton/>
       <div id='home' className='bg_colored'><WelcomeSection/></div>
       <div className='bg_colored2'>
         <BgMountainsTop/>
