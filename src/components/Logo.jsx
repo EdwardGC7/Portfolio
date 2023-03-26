@@ -23,15 +23,15 @@ const Logo = () => {
           <img src={logoImg} alt="Logo image" />
           <div className='overlay_img_text'>
             <div>
-            <p><h5>Technologies:</h5>HTML, CSS, JavaScript, React JS, Redux, Bootstrap, Git / GitHub, MySQL</p>
+            <h5>Technologies:</h5><p>HTML, CSS, JavaScript, React JS, Redux, Bootstrap, Git / GitHub, MySQL</p>
             </div>
 
             <div className='overlay_img_text--grey'>
-            <p><h5>Soft Skills:</h5>Problem solving, diagnostics and repair of computers, adaptability, teamwork, autodidact</p>
+            <h5>Soft Skills:</h5><p>Problem solving, diagnostics and repair of computers, adaptability, teamwork, autodidact</p>
             </div>
 
             <div>
-            <p><h5>Languages:</h5>Native Spanish, fluent English</p>
+            <h5>Languages:</h5><p>Native Spanish, fluent English</p>
             </div>
           </div>
         </div>

@@ -7,20 +7,16 @@ import Logo from './Logo';
 
 const NavBar = ({setNavOpen}) => {
 
-  // const [toggleClass, setToggleClass] = useState(false)
 
   const handleButtonClick = () => {
-    // setToggleClass(!toggleClass);
     if (window.innerWidth < 768) {
       setNavOpen(false);
     }
-    // setNavOpen(false);
     
   };
 
   return (
     <div className={`navBarContainer`} onClick={handleButtonClick}>
-    {/* <div className={`navBarContainer ${toggleClass? 'hideBar':''}`} onClick={handleButtonClick}> */}
       <div>
         <Logo/>
       </div>
@@ -33,14 +29,14 @@ const NavBar = ({setNavOpen}) => {
             <li>
               <div className='social_icons_top'>
               <div className='social_icons'>
-                <CircularSocialBTN Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
-                <CircularSocialBTN Iconfa={<FaFacebookF size={30} color={'grey'}/>}/>
-                <CircularSocialBTN Iconfa={<FaInstagram size={30} color={'grey'}/>}/>
+                <CircularSocialBTN link={'https://www.linkedin.com/in/osvaldogonzalezc/'} Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
+                <CircularSocialBTN link={'https://m.facebook.com/100008724181409/'} Iconfa={<FaFacebookF size={30} color={'grey'}/>}/>
+                <CircularSocialBTN link={'https://instagram.com/edward_gcampos?igshid=ZDdkNTZiNTM='} Iconfa={<FaInstagram size={30} color={'grey'}/>}/>
               </div>
-              </div>
+              </div> 
             </li>
             <li >
-              <Link  to='contactMe' smooth offset={-70} duration={400}><button onClick={handleButtonClick}>Contact Me</button></Link>
+              <Link  to='contactMe' smooth offset={-10} duration={400}><button onClick={handleButtonClick}>Contact Me</button></Link>
             </li>
           </ul>
         </nav>

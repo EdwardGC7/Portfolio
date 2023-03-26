@@ -91,6 +91,57 @@ button[type="submit"]:hover {
   color: white;
 }
 
+/* alert */
+.alert-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 4000;
+}
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 240px;
+  max-width: 300px;
+  max-height: 150px;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.custom-alert h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.custom-alert p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.custom-alert button {
+  background-color: #f9a826;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-alert button:hover {
+  background-color: #a67019;
+  color: whitesmoke;
+}
+
 
 /* Extra Code Down Here */
 

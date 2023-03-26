@@ -3,6 +3,7 @@ import MailSvg from '../assets/mail.svg'
 import '../styles/contactSection.css'
 import ContactForm from './ContactForm'
 
+
 const ContactSection = () => {
   return (
     <div id='contactMe' className='contact_container'>
