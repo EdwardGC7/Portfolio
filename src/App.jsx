@@ -7,7 +7,7 @@ import FloatingNavButton from './components/FloatingNavButton'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import ProjectsSection from './components/ProjectsSection'
-import SkillSection from './components/skillSection'
+import SkillSection from './components/SkillSection'
 import WelcomeSection from './components/WelcomeSection'
 
 function App() { 
