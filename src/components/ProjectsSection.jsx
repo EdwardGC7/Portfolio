@@ -9,44 +9,44 @@ const ProjectsSection = () => {
 
   const projectsList = [
     {
-      title:'Project 1',
-      description:'A small description here',
-      imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react',
-      demo:'https://www.youtube.com/',
-      repository:'https://github.com/'
-    },
-    {
-      title:'Project 2',
-      description:'A small description here',
-      imgUrl:'https://www.creative.onl/wp-content/uploads/2021/08/web-design-packages-scaled-1200x800.jpg',
+      title:'Architecture',
+      description:'This is a small project for a webpage that showcases different styles of architecture for houses in the forest.',
+      imgUrl:'/projects/arquitectura.jpg',
       type:'js',
-      demo:'https://www.youtube.com/',
-      repository:'https://github.com/'
+      demo:'https://pgc-arquitectura.netlify.app/',
+      repository:'https://github.com/EdwardGC7/pgc-arquitectura'
     },
     {
-      title:'Project 3',
-      description:'A small description hereA small description hereA small description hereA small description hereA small description hereA small description here',
-      imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react',
-      demo:'https://www.youtube.com/',
-      repository:'https://github.com/'
-    },
-    {
-      title:'Project 4',
-      description:'A small description here',
-      imgUrl:'https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg',
+      title:'Shopping cart',
+      description:'Store project with a shopping cart using local storage.',
+      imgUrl:'/projects/carrito.jpg',
       type:'js',
-      demo:'https://www.youtube.com/',
-      repository:'https://github.com/'
+      demo:'https://pgc-shoppingcart.netlify.app/',
+      repository:'https://github.com/EdwardGC7/pgc-shoppingcart'
     },
     {
-      title:'Project 5',
-      description:'A small description here',
-      imgUrl:'https://toggl.com/blog/wp-content/uploads/2021/05/how-to-create-a-website-project-plan.jpg',
-      type:'react',
-      demo:'https://www.youtube.com/',
-      repository:'https://github.com/'
+      title:'E-commerce',
+      description:'Furniture e-commerce',
+      imgUrl:'/projects/ecommerce.jpg',
+      type:'js',
+      demo:'https://pgc-ecommerce.netlify.app/',
+      repository:'https://github.com/EdwardGC7/pgc-ecommerce'
+    },
+    {
+      title:'E-wallet',
+      description:'E-wallet presentation page',
+      imgUrl:'/projects/ewallet.jpg',
+      type:'js',
+      demo:'https://pgc-ewallet.netlify.app/',
+      repository:'https://github.com/EdwardGC7/pgc-ewallet'
+    },
+    {
+      title:'Digital services',
+      description:'Website where different digital services can be offered.',
+      imgUrl:'/projects/services.jpg',
+      type:'js',
+      demo:'https://pgc-service.netlify.app/',
+      repository:'https://github.com/EdwardGC7/pgc-service'
     },
   ];
 
