@@ -2,13 +2,13 @@ import React from 'react'
 import '../styles/footer.css';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import CircularSocialBTN from './CircularSocialBTN';
-import btLogo from '../assets/btLogo.jpg'
+// import btLogo from '../assets/btLogo.jpg'
 
 const Footer = () => {
   return (
     <div className='footer_container'>
       {/* <h1>LOGO</h1> */}
-      <div className='footer-logo'><img src={btLogo} alt="Footer image" /></div>
+      <div className='footer-logo'><img src={'/btLogo.jpg'} alt="Footer image" /></div>
       <div>
       <div className='social_icons'>
           <CircularSocialBTN bColor={'white'} link={'https://www.linkedin.com/in/osvaldogonzalezc/'} Iconfa={<FaLinkedinIn size={30} color={'grey'}/>}/>
