@@ -5,6 +5,16 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 import Logo from './Logo';
 
 const WelcomeSection = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = '/ogCV.pdf';
+    link.setAttribute("download", "OsvaldoG-Curriculum.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='welcome-container' >
       <div className='mobile_logo'><Logo /></div>
@@ -18,7 +28,7 @@ const WelcomeSection = () => {
         <p >I am a passionate and dedicated web developer focused on creating beautiful and functional software. With a strong foundation in HTML, CSS, and JavaScript, as well as a deep understanding of React JS, I am equipped with a wide range of skills to meet the needs of clients. Additionally, I possess knowledge in key areas such as Git, APIs, and databases, and have completed courses in programming best practices, algorithms, and OOP. With a commitment to ongoing learning and growth, my goal is to be a valuable asset to any team.
         </p>
         </div>
-        <div className='download-cv'>Download my CV <span><FaArrowAltCircleDown size={20} color={'grey'}/></span></div>
+        <div onClick={handleDownload} className='download-cv'>Download my CV <span><FaArrowAltCircleDown size={20} color={'grey'}/></span></div>
       </div>
       <div>
         <img className='welcome-container_img' src={CodingSvg} alt="Coding image" />
