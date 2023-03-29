@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ProjectsCardButtons.css';
+import '../styles/projectsCardButtons.css';
 
 const ProjectsCardButtons = ({demo, repository}) => {
   function handleLinkDemo() {
